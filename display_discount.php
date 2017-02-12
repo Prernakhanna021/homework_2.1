@@ -11,6 +11,9 @@
     $discount_percent_formatted = $discount_percent."%";
     $discount_formatted = "$".number_format($discount, 2);
     $discount_price_formatted = "$".number_format($discount_price, 2);
+	
+	$product_description_escaped = htmlspecialchars($product_description);
+	
 ?>
 <!DOCTYPE html>
 <html>
